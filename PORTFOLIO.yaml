@@ -1,0 +1,13 @@
+schema_version: 1
+repository: neural-optimization-methods
+role: umbrella
+axis: methodology
+area: learned-optimizers
+status: active
+owner: jorsacademy
+projects:
+  - learned-optimizer-pytorch
+conventions:
+  provenance_records: true
+  reproducibility_expected: true
+  benchmark_assumptions_documented: true
