@@ -7,6 +7,8 @@ status: active
 owner: jorsacademy
 projects:
   - learned-optimizer-pytorch
+  - neural-network-region-verification
+  - self-supervised-primal-dual-proxy
 conventions:
   provenance_records: true
   reproducibility_expected: true

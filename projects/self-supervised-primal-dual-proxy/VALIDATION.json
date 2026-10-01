@@ -1,0 +1,29 @@
+{
+  "project": "primal_dual",
+  "status": "passed",
+  "tests": 7,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "torch": "2.10.0+cpu",
+    "device": "CPU",
+    "threads": 1,
+    "date": "2026-10-01"
+  },
+  "sha256": {
+    "study.py": "7eb895bc68bf289021dd4568d17d5b3471d3fffb20a694444ea7acd02dd97ce1",
+    "checks.py": "3a9d094b7b3c2461fada67fd45ea4147f49144db9c70ac84f7611ad2985e5d53"
+  },
+  "scope": "only this module; existing umbrella regression suite not run",
+  "initial_execution_sha256": {
+    "study.py": "2784f17a28650e15dd7970cb96431b2d0b018f97d5c1c2b22eea4abafcd03339",
+    "checks.py": "480ae0548adf3c80f83fcf6f057085131cb6ac8ce49df3f308328e0c16dd93f4"
+  },
+  "post_format_validation": {
+    "status": "passed",
+    "runner": "GitHub Actions",
+    "python": "3.11.16",
+    "ruff": "ruff 0.16.9"
+  }
+}
