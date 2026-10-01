@@ -1,1 +1,28 @@
-{"project":"region_verification","status":"passed","tests":7,"environment":{"python":"3.13.5","numpy":"2.3.5","scipy":"1.17.0","device":"CPU","threads":1,"date":"2026-10-01"},"sha256":{"study.py":"fda28c81c2b3c7e8ff74ba2f91ef7f1e076caed4310601a915fbf682f56bcba4","checks.py":"9350b31d820b43e92e1ec15e6c6893771bf76f98aa3f216cf6877f99c7e638b5"},"scope":"only this module; existing umbrella regression suite not run"}
+{
+  "project": "region_verification",
+  "status": "passed",
+  "tests": 7,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "device": "CPU",
+    "threads": 1,
+    "date": "2026-10-01"
+  },
+  "sha256": {
+    "study.py": "7e665a2c42c4218baef396838f396834cd5baf38aed03b78b1e473777f28f297",
+    "checks.py": "9c5f4e9f37a0b9b8a6ea95bb231e51b49c437e2a3aab1cd40a6e8fc7ec35eb53"
+  },
+  "scope": "only this module; existing umbrella regression suite not run",
+  "initial_execution_sha256": {
+    "study.py": "fda28c81c2b3c7e8ff74ba2f91ef7f1e076caed4310601a915fbf682f56bcba4",
+    "checks.py": "9350b31d820b43e92e1ec15e6c6893771bf76f98aa3f216cf6877f99c7e638b5"
+  },
+  "post_format_validation": {
+    "status": "passed",
+    "runner": "GitHub Actions",
+    "python": "3.11.16",
+    "ruff": "ruff 0.16.9"
+  }
+}
